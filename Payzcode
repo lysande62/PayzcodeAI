@@ -1,0 +1,12 @@
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+<stripe-buy-button
+  buy-button-id="buy_btn_1PDt3MLouxPo7KboOBqBsJdt"
+  publishable-key="pk_live_51Jdi6wLouxPo7KboRhTpXM0K1MhsNphpCojzBHhQhEaLLuY6uEhsB1R88mhBVMzzcCANfjL524H1ZQcfiYiIkMJ300afzIKyxR"
+>
+</stripe-buy-button>
+// fetch activities
+const activities = await sdk.apis.activity.getActivitiesByItem({
+  type: [ActivityType.LIST
